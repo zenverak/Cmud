@@ -167,7 +167,7 @@ function game() {
             player.hp = this.hp;
         }, "Heals all of your HP", 100),
 
-        enemyNames1 = ["Child", "Angry Man", "Crazy Robot", "Rabid Dog", "Dancing Children", "Rabid Dog", "Rabid Dog", "Man", "Psycho Mob"],
+        enemyNames1 = ["Angry Man", "Crazy Robot", "Rabid Dog", "Rabid Dog", "Rabid Dog", "Man", "Psycho Mob","Robot of Doom", "Demon"],
 
         
         enemy1 = new cmud.Enemy(enemyNames1[Math.floor(Math.random() * enemyNames1.length)], 10, 3, 1, 1, 10, 2),
